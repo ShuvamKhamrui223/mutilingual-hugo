@@ -1,0 +1,55 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Categories - Catégorie - Madame Dutykh</title>
+        <link>https://fr.example.org/categories/</link>
+        <description>Categories - Catégorie - Madame Dutykh</description>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Fri, 19 Jun 2015 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://fr.example.org/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Expérience Personnelle</title>
+    <link>https://fr.example.org/categories/exp%C3%A9rience-personnelle/</link>
+    <pubDate>Fri, 19 Jun 2015 00:00:00 &#43;0000</pubDate>
+    <author>Auteur</author>
+    <guid>https://fr.example.org/categories/exp%C3%A9rience-personnelle/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>France</title>
+    <link>https://fr.example.org/categories/france/</link>
+    <pubDate>Fri, 19 Jun 2015 00:00:00 &#43;0000</pubDate>
+    <author>Auteur</author>
+    <guid>https://fr.example.org/categories/france/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Notes</title>
+    <link>https://fr.example.org/categories/notes/</link>
+    <pubDate>Fri, 19 Jun 2015 00:00:00 &#43;0000</pubDate>
+    <author>Auteur</author>
+    <guid>https://fr.example.org/categories/notes/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Savoie</title>
+    <link>https://fr.example.org/categories/savoie/</link>
+    <pubDate>Fri, 19 Jun 2015 00:00:00 &#43;0000</pubDate>
+    <author>Auteur</author>
+    <guid>https://fr.example.org/categories/savoie/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Voyages</title>
+    <link>https://fr.example.org/categories/voyages/</link>
+    <pubDate>Fri, 19 Jun 2015 00:00:00 &#43;0000</pubDate>
+    <author>Auteur</author>
+    <guid>https://fr.example.org/categories/voyages/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Espagne</title>
+    <link>https://fr.example.org/categories/espagne/</link>
+    <pubDate>Sun, 14 Jun 2015 00:00:00 &#43;0000</pubDate>
+    <author>Auteur</author>
+    <guid>https://fr.example.org/categories/espagne/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>

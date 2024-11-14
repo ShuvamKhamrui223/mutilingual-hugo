@@ -1,0 +1,177 @@
+
+# Change the default theme to be use when building the site with Hugo
+theme = "LoveIt"
+
+# website title
+title = "Madame Dutykh"
+
+# language code ["en", "ru", "fr"]
+# language name ["English", "Русский", "Français"]
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+relativeURLs = true
+canonifyURLs = true
+
+
+# Author config
+[params.author]
+  name = ""
+  email = ""
+  link = ""
+
+# Добавляем publishDir
+publishDir = "docs"
+ 
+  [languages.en] 
+    baseURL = "https://katerynadutykh.github.io/madame-dutykh/"
+    disabled = false
+    languageCode = "en"
+    contentDir = 'content/en'    
+    languageName = "English"
+    languageDirection = "ltr"
+    title = "Madame Dutykh"
+    weight = 1
+  [[languages.en.menu.main]]
+    weight = 1
+    identifier = "about"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "About"
+    url = "/about/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[languages.en.menu.main]]
+    weight = 2
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[languages.en.menu.main]]
+    weight = 3
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+  [[languages.en.menu.main]]
+    weight = 4
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+  
+  [languages.ru] 
+    baseURL = "https://katerynadutykh.github.io/madame-dutykh/"  
+    disabled = false
+    languageCode = "ru"
+    contentDir = 'content/ru' 
+    languageName = "Русский"
+    languageDirection = "ltr"
+    title = "Мадам Дутых"
+    weight = 2
+  [[languages.ru.menu.main]]
+    weight = 1
+    identifier = "about"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Про блог"
+    url = "/about/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[languages.ru.menu.main]]
+    weight = 2
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Статьи"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[languages.ru.menu.main]]
+    weight = 3
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Тэги"
+    url = "/tags/"
+    title = ""
+  [[languages.ru.menu.main]]
+    weight = 4
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Категории"
+    url = "/categories/"
+    title = ""
+
+  [languages.fr]  
+    baseURL = "https://katerynadutykh.github.io/madame-dutykh/" 
+    disabled = false
+    languageCode = "fr"
+    contentDir = 'content/fr' 
+    languageName = "Français"
+    languageDirection = "ltr"
+    title = "Madame Dutykh"
+    weight = 3
+  [[languages.fr.menu.main]]
+    weight = 1
+    identifier = "about"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "A propos"
+    url = "/about/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[languages.fr.menu.main]]
+    weight = 2
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Postes"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[languages.fr.menu.main]]
+    weight = 3
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Balises"
+    url = "/tags/"
+    title = ""
+  [[languages.fr.menu.main]]
+    weight = 4
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Catégories"
+    url = "/categories/"
+    title = ""
+
+ 
+ 
+  
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
