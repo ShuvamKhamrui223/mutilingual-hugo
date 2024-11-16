@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://katerynadutykh.github.io/madame-dutykh/en/about/</loc><lastmod>2024-09-18T00:00:00&#43;00:00</lastmod><xhtml:link
+            <loc>https://katerynadutykh.github.io/madame-dutykh/about/</loc><lastmod>2024-09-18T00:00:00&#43;00:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="ru"
                         href="https://katerynadutykh.github.io/madame-dutykh/ru/about/"
@@ -13,9 +13,9 @@
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://katerynadutykh.github.io/madame-dutykh/en/about/"
+                    href="https://katerynadutykh.github.io/madame-dutykh/about/"
                     /></url><url>
-            <loc>https://katerynadutykh.github.io/madame-dutykh/en/</loc><lastmod>2024-09-18T00:00:00&#43;00:00</lastmod><xhtml:link
+            <loc>https://katerynadutykh.github.io/madame-dutykh/</loc><lastmod>2024-09-18T00:00:00&#43;00:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="ru"
                         href="https://katerynadutykh.github.io/madame-dutykh/ru/"
@@ -26,9 +26,9 @@
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://katerynadutykh.github.io/madame-dutykh/en/"
+                    href="https://katerynadutykh.github.io/madame-dutykh/"
                     /></url><url>
-            <loc>https://katerynadutykh.github.io/madame-dutykh/en/categories/</loc><xhtml:link
+            <loc>https://katerynadutykh.github.io/madame-dutykh/categories/</loc><xhtml:link
                         rel="alternate"
                         hreflang="ru"
                         href="https://katerynadutykh.github.io/madame-dutykh/ru/categories/"
@@ -39,9 +39,9 @@
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://katerynadutykh.github.io/madame-dutykh/en/categories/"
+                    href="https://katerynadutykh.github.io/madame-dutykh/categories/"
                     /></url><url>
-            <loc>https://katerynadutykh.github.io/madame-dutykh/en/tags/</loc><xhtml:link
+            <loc>https://katerynadutykh.github.io/madame-dutykh/tags/</loc><xhtml:link
                         rel="alternate"
                         hreflang="ru"
                         href="https://katerynadutykh.github.io/madame-dutykh/ru/tags/"
@@ -52,5 +52,5 @@
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://katerynadutykh.github.io/madame-dutykh/en/tags/"
+                    href="https://katerynadutykh.github.io/madame-dutykh/tags/"
                     /></url></urlset>
