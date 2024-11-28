@@ -1,6 +1,7 @@
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
+baseURL = "https://katerynadutykh.github.io/madame-dutykh/"
 
 # website title
 title = "Madame Dutykh"
@@ -8,7 +9,7 @@ title = "Madame Dutykh"
 # language code ["en", "ru", "fr"]
 # language name ["English", "Русский", "Français"]
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 relativeURLs = true
 canonifyURLs = true
 
@@ -23,7 +24,6 @@ canonifyURLs = true
 publishDir = "docs"
  
   [languages.en] 
-    baseURL = "https://katerynadutykh.github.io/madame-dutykh/"
     disabled = false
     languageCode = "en"
     contentDir = 'content/en'    
@@ -71,7 +71,6 @@ publishDir = "docs"
     title = ""
   
   [languages.ru] 
-    baseURL = "https://katerynadutykh.github.io/madame-dutykh/"  
     disabled = false
     languageCode = "ru"
     contentDir = 'content/ru' 
@@ -119,7 +118,6 @@ publishDir = "docs"
     title = ""
 
   [languages.fr]  
-    baseURL = "https://katerynadutykh.github.io/madame-dutykh/" 
     disabled = false
     languageCode = "fr"
     contentDir = 'content/fr' 
