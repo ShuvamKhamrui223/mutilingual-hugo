@@ -547,6 +547,7 @@ ignoreErrors = ["error-remote-getjson"]
     title = "Madame Dutykh"
     languageCode = "en"
     languageName = "English"
+    contentDir = "content/en"
     [[languages.en.menu.main]]
       weight = 1
       identifier = "about"
@@ -591,6 +592,7 @@ ignoreErrors = ["error-remote-getjson"]
     title = "Мадам Дутых"
     languageCode = "ru"
     languageName = "Русский"
+    contentDir = "content/ru"
     [[languages.ru.menu.main]]
      weight = 1
      identifier = "about"
@@ -634,7 +636,8 @@ ignoreErrors = ["error-remote-getjson"]
     weight = 3
     title = "Madame Dutykh"  
     languageCode = "fr"
-    languageName = "Français"  
+    languageName = "Français" 
+    contentDir = "content/fr" 
     [[languages.fr.menu.main]]
      weight = 1
      identifier = "about"
