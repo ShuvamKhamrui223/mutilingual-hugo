@@ -2,14 +2,14 @@
 title: "Le Pays basque mystérieux."
 translationKey: "mysterious-country-of-the-basque"  # Ключ должен быть уникальным и постоянным
 date: 2015-05-13
-# type - этот параметр указывает на то, что пост относится к типу "post"
+lastmod: 2024-10-10
 type: "posts"
-weight: 2
+weight: 1
 draft: false
 author: "Kateryna"
 tags: ["Espagne","Pays Basque"]
 categories: ["Espagne","Voyages","Notes"]
-lang: "fr"
+
 
 library:
   css:
@@ -30,7 +30,7 @@ Pendant ce séjour nous avons obtenu beaucoup d’impressions et d’information
 
 Bilbao (Bilbo en basque) c’est une grande ville dynamique qui se trouve dans le nord d’Espagne. D’ailleurs, Bilbao a été fondée par les espagnols mais les basques n’aiment admettre ce faithistorique. Il est le centre administratif de la province de Biscaye (Bizkaia), de la communauté autonome du Pays basque. Les Basques ont son blason et drapeau qui est plus commun que le drapeau d’Espagne.
 
-{{< style "text-align:center" >}}
+{{< style align="center" >}}
 ![Coat of arms and flag of Bilbao](/images/coat_of_arms_flag_Bilbao.jpeg)
 {{< /style >}}
 

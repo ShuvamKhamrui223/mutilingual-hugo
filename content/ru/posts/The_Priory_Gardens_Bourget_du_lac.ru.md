@@ -5,19 +5,19 @@ date: 2015-06-19
 lastmod: 2024-10-26
 # type - этот параметр указывает на то, что пост относится к типу "post"
 type: "posts"
-weight: 2
+weight: 1
 draft: false
 author: "Катерина"
 tags: ["Савойя", "Бурже-дю-Ляк", "Жизнь по-французски", "Исторические места", "Велопрогулки"]
 categories: ["Франция","Савойя", "Путешествия", "Заметки", "Личный опыт"]
-lang: "ru"
+
 
 gallery_item:
   - album: gallery
-    image: /images/gallery/2015_Jardins_Prieure_Bourget_Lac_DSC_0904.JPG
+    image: /images/gallery/
     caption: 
   - album: gallery
-    image: /images/gallery/2015_Jardins_Prieure_Bourget_Lac_DSC_0877.JPG
+    image: /images/gallery/
     caption: 
 
 library:
@@ -46,12 +46,12 @@ library:
 Этот маленький, но очаровательный сад находится на территории приората Святого Мориса, построенного ещё в XI веке, в городке Бурже-дю-Лак, во французском департаменте Савойя.
 
 {{< gallery-container >}}
-<img src="/images/2015_Jardins_Prieure_Borget_Lac_DSC_0842.jpg" alt="Image 1">
-<img src="/images/2015_Jardins_Prieure_Borget_Lac_DSC_0858.jpg" alt="Image 4">
-<img src="/images/2015_Jardins_Prieure_Borget_Lac_DSC_0851.jpg" alt="Image 3">
-<img src="/images/2015_Jardins_Prieure_Borget_Lac_DSC_0869.jpg" alt="Image 2">
-<img src="/images/2015_Jardins_Prieure_Borget_Lac_DSC_0865.jpg" alt="Image 5">
-<img src="/images/2015_Jardins_Prieure_Borget_Lac_DSC_0870.jpg" alt="Image 6">
+<img src="" alt="Image 1">
+<img src="" alt="Image 4">
+<img src="" alt="Image 3">
+<img src="" alt="Image 2">
+<img src="" alt="Image 5">
+<img src="" alt="Image 6">
 {{< /gallery-container >}}
 
 ## Немного про монастырь
@@ -59,7 +59,7 @@ library:
 Сам приорат расположен среди гор, неподалёку от озера Бурже, и выглядит живописно и очень атмосферно.
 
 {{< style "text-align:center" >}}
-![Le Prieuré, Le Bourget-du-Lac, France](/images/2015_Jardins_Prieure_Borget_Lac.jpg)
+![Le Prieuré, Le Bourget-du-Lac, France]()
 {{< /style >}}
 
 {{< gallery >}}

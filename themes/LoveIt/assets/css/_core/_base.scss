@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 html {
-  font-family: var(--global-font-family);
   font-weight: var(--global-font-weight);
   font-display: swap;
   font-size: var(--global-font-size);
   line-height: var(--global-line-height);
-  width:100%;
+  width: 100%;
 
   scroll-behavior: smooth;
 
@@ -15,6 +16,23 @@ html {
   h1 {
     line-height: 125%;
   }
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto";
+}
+
+p,
+a,
+small,
+strong {
+  font-family: "Bodoni Moda";
 }
 
 /* scrollbar, only support webkit */

@@ -4,10 +4,10 @@ subtitle: "Bonjour à tous!"
 date: 2024-09-18
 # type - этот параметр указывает на то, что пост относится к типу "about"
 type: "about"
-weight: 1
+weight: 2
 draft: false
 author: "Kateryna"
-lang: "fr"
+
 
 library:
   css:

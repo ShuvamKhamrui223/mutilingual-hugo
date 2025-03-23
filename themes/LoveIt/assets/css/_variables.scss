@@ -2,25 +2,22 @@
 // Variables
 // ==============================
 
-@font-face {
-  font-family: Emoji;
-  src: local("Apple Color Emoji"), local("Segoe UI Emoji"), local("Segoe UI Symbol"), local("Noto Color Emoji");
-  unicode-range: U+1F000-1F644, U+203C-3299;
-}
+
 
 // ========== Global ========== //
 // Font and Line Height
-$global-font-family: system-ui, -apple-system, Segoe UI, Roboto, Emoji, Helvetica, Arial, sans-serif !default;
+$global-font-family: "gilroy";
 $global-font-size: 16px !default;
 $global-font-weight: 400 !default;
 $global-line-height: 1.5rem !default;
 
+$secondary-global-font-family: "";
 // Color of the background
 $global-background-color: #fff !default;
 $global-background-color-dark: #292a2d !default;
 
 // Color of the text
-$global-font-color: #161209 !default;
+$global-font-color: #4B4E53 !default;
 $global-font-color-dark: #a9a9b3 !default;
 
 // Color of the secondary text
@@ -40,6 +37,7 @@ $global-border-color: #f0f0f0 !default;
 $global-border-color-dark: #363636 !default;
 // ========== Global ========== //
 
+$logo-color-light:#8a1820;
 // ========== Scrollbar ========== //
 // Color of the scrollbar
 $scrollbar-color: #87878d !default;

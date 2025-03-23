@@ -1,23 +1,22 @@
 ---
-title: "L'architecture de Bilbao"
+title: "L'architecture de Bilbao."
 translationKey: "Bilbao_architecture"  # Ключ должен быть уникальным и постоянным
 date: 2015-06-14
 lastmod: 2024-10-14
-# type - этот параметр указывает на то, что пост относится к типу "post"
 type: "posts"
-weight: 2
+weight: 1
 draft: false
 author: "Kateryna"
 tags: ["Espagne","Pays Basque"]
 categories: ["Espagne","Voyages","Notes"]
-lang: "fr"
+
 
 gallery_item:
   - album: gallery
-    image: /images/gallery/2015_Bilbao_Spain_DSC_0019.JPG
+    image: /images/gallery/
     caption: 
   - album: gallery
-    image: /images/gallery/2015_Bilbao_Spain_DSC_0023.JPG
+    image: /images/gallery/
     caption: 
 
 library:
@@ -44,19 +43,19 @@ Regardez les photos ci-dessous, et vous comprendrez de quoi il s'agit.
 Le premier bâtiment, construit dans les années 1930, abrite le siège de l'une des plus grandes banques — Banco Bilbao Vizcaya Argentaria (BBVA). La façade de cet imposant édifice est ornée d'une horloge, qui remplit non seulement une fonction pratique, mais symbolise aussi le temps et la stabilité. Sur le toit, se trouve une statue d'Hermès — le dieu grec du commerce, de la richesse et de la chance. Il est représenté avec des ailes sur son chapeau et un caducée dans la main, symbolisant son lien avec le commerce et l'échange. Il est intéressant de noter que grâce à ce symbole, le bâtiment est connu sous le nom de "bâtiment avec Hermès".
 
 {{< style "text-align:left" >}}
-![BBVA_Hermes_Bilbao_2015](/images/2015_Bilbao_Spain_BBVA_DSC_0502.JPG)
+![BBVA_Hermes_Bilbao_2015](/)
 {{< /style >}}
 
 À côté de BBVA se trouve le bâtiment Ibergola, construit en 1976. Sa forme unique et son emplacement harmonieux dans le paysage urbain en font l'un des monuments remarquables de Bilbao, incarnant l'esprit de son époque et la quête de modernité.
 
 {{< style "text-align:left" >}}
-![Ibergola_Bilbao_2015](/images/2015_Bilbao_Spain__Ibergola_DSC_0059.JPG)
+![Ibergola_Bilbao_2015](/)
 {{< /style >}}
 
 Un autre bâtiment local difficile à ignorer est l'Edificio El Tigre. Construit en 1941, il se distingue par son revêtement jaune vif et ses colonnes, tandis qu'une statue de tigre orne son toit. 
 
 {{< style "text-align:left" >}}
-![Ibergola_Bilbao_2015](/images/2015_Bilbao_Spain_Edificio_El_Tigre_DSC_0125.JPG)
+![Ibergola_Bilbao_2015](/)
 {{< /style >}}
 
 Le pont de Subisuri, ou « pont blanc », à Bilbao est considéré comme le symbole de la modernisation et de la renaissance de la ville. 
@@ -76,7 +75,7 @@ Dans ma publication précédente, j'ai mentionné la[période de déclin](https:
 Pour moi, Bilbao restera gravée dans ma mémoire pour son hospitalité et l'ouverture de ses habitants, ainsi que pour une atmosphère de vie pleine d'énergie, de manifestations culturelles, de festivals et d'expositions. En même temps, la ville préserve soigneusement ses traditions et respecte son histoire.
 
 {{< style "text-align:center" >}}
-![2015_collage_Bilbao](/images/Bilbao_collage_1.jpg)
+![2015_collage_Bilbao]()
 {{< /style >}}
 
 {{< style "text-align:center" >}}**À suivre...**{{< /style >}}

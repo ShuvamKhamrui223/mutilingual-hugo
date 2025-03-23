@@ -4,12 +4,12 @@ translationKey: "mysterious-country-of-the-basque"  # Ключ должен бы
 date: 2015-05-13
 # type - этот параметр указывает на то, что пост относится к типу "post"
 type: "posts"
-weight: 2
+weight: 1
 draft: false
 author: "Катерина"
 tags: ["Испания","Страна Басков"]
 categories: ["Испания","Путешествия","Заметки"]
-lang: "ru"
+
 
 library:
   css:

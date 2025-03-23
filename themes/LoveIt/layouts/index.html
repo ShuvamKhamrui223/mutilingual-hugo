@@ -35,8 +35,6 @@
             {{- range $pages.Pages -}}
                 {{- .Render "summary" -}}
             {{- end -}}
-            {{- range $pages.Pages.ByDate.Reverse -}}
-            {{- end -}}
             {{- partial "paginator.html" . -}}
         {{- end -}}
     </div>

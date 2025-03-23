@@ -2,55 +2,69 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://katerynadutykh.github.io/madame-dutykh/about/</loc><lastmod>2024-09-18T00:00:00&#43;00:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="ru"
-                        href="https://katerynadutykh.github.io/madame-dutykh/ru/about/"
-                        /><xhtml:link
+            <loc>http://localhost:1313/about/</loc><lastmod>2024-09-18T00:00:00&#43;00:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="fr"
-                        href="https://katerynadutykh.github.io/madame-dutykh/fr/about/"
+                        href="http://localhost:1313/fr/about/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="ru"
+                        href="http://localhost:1313/ru/about/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://katerynadutykh.github.io/madame-dutykh/about/"
+                    href="http://localhost:1313/about/"
                     /></url><url>
-            <loc>https://katerynadutykh.github.io/madame-dutykh/</loc><lastmod>2024-09-18T00:00:00&#43;00:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="ru"
-                        href="https://katerynadutykh.github.io/madame-dutykh/ru/"
-                        /><xhtml:link
+            <loc>http://localhost:1313/</loc><lastmod>2024-09-18T00:00:00&#43;00:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="fr"
-                        href="https://katerynadutykh.github.io/madame-dutykh/fr/"
+                        href="http://localhost:1313/fr/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="ru"
+                        href="http://localhost:1313/ru/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://katerynadutykh.github.io/madame-dutykh/"
+                    href="http://localhost:1313/"
                     /></url><url>
-            <loc>https://katerynadutykh.github.io/madame-dutykh/categories/</loc><xhtml:link
-                        rel="alternate"
-                        hreflang="ru"
-                        href="https://katerynadutykh.github.io/madame-dutykh/ru/categories/"
-                        /><xhtml:link
+            <loc>http://localhost:1313/categories/</loc><xhtml:link
                         rel="alternate"
                         hreflang="fr"
-                        href="https://katerynadutykh.github.io/madame-dutykh/fr/categories/"
+                        href="http://localhost:1313/fr/categories/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="ru"
+                        href="http://localhost:1313/ru/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://katerynadutykh.github.io/madame-dutykh/categories/"
+                    href="http://localhost:1313/categories/"
                     /></url><url>
-            <loc>https://katerynadutykh.github.io/madame-dutykh/tags/</loc><xhtml:link
-                        rel="alternate"
-                        hreflang="ru"
-                        href="https://katerynadutykh.github.io/madame-dutykh/ru/tags/"
-                        /><xhtml:link
+            <loc>http://localhost:1313/posts/</loc><xhtml:link
                         rel="alternate"
                         hreflang="fr"
-                        href="https://katerynadutykh.github.io/madame-dutykh/fr/tags/"
+                        href="http://localhost:1313/fr/posts/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="ru"
+                        href="http://localhost:1313/ru/posts/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://katerynadutykh.github.io/madame-dutykh/tags/"
-                    /></url></urlset>
+                    href="http://localhost:1313/posts/"
+                    /></url><url>
+            <loc>http://localhost:1313/tags/</loc><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="http://localhost:1313/fr/tags/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="ru"
+                        href="http://localhost:1313/ru/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/tags/"
+                    /></url><url>
+            <loc>http://localhost:1313/posts/post1/</loc></url></urlset>

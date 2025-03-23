@@ -2,14 +2,14 @@
 title: "Bilbao."
 translationKey: "Bilbao"  # Ключ должен быть уникальным и постоянным
 date: 2015-06-13
-# type - этот параметр указывает на то, что пост относится к типу "post"
+lastmod: 2024-10-12
 type: "posts"
-weight: 2
+weight: 1
 draft: false
 author: "Kateryna"
 tags: ["Espagne","Pays Basque"]
 categories: ["Espagne","Voyages","Notes"]
-lang: "fr"
+
 
 library:
   css:
@@ -46,7 +46,7 @@ Voici une courte vidéo de la station San Inazio du métro de Bilbao. Comme vous
 Et bien sûr, je partage quelques photos de la ville. Elles peuvent vous sembler un peu sombres, mais gardez à l'esprit que le voyage a eu lieu en février, et qu'il pleut souvent dans cette région et qu'il y a du brouillard.
 
 <!-- Первая карусель -->
-{{< carousel config="carousel1" items="1" height="500" unit="px" duration="7000" >}}
+{{< carousel config="carousel-config1" items="1" height="500" unit="px" duration="7000" >}}
 
 
 {{< style "text-align:center" >}}**À suivre...**{{< /style >}}

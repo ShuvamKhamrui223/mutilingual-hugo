@@ -1,3 +1,5 @@
-<div class="gallery-grid">
-  {{ .Inner }}
+<div class="gallery-container">
+  {{ range .Params.images }}
+    <img src="{{ . }}" alt="Gallery image">
+  {{ end }}
 </div>

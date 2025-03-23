@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on </title>
+    <link>//localhost:1313/categories/notes/</link>
+    <description>Recent content in Notes on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 26 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les jardins du Prieuré du Bourget-du-Lac.</title>
+      <link>//localhost:1313/fr/posts/the_priory_gardens_bourget_du_lac.fr/</link>
+      <pubDate>Fri, 19 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/fr/posts/the_priory_gardens_bourget_du_lac.fr/</guid>
+      <description>&amp;ldquo;Katya, ne te promène pas seule dans des villages!&amp;rdquo; — a dit ma mère, quand je lui ai parlé de ma petite promenade à travers le village où j’ai découvert un joli jardin. J’attendais une autre réaction mais…c’est ma mere. Elle s’inquiète toujours pour moi :-)&#xA;Il y a quelques semaines, j&amp;rsquo;ai loué un vélo. Le matin, je pédale sur la piste cyclable jusqu&amp;rsquo;au lac, où j’étudie le français, je lis ou je profite simplement de la nature — ça dépend du moment.</description>
+    </item>
+    <item>
+      <title>L&#39;architecture de Bilbao</title>
+      <link>//localhost:1313/fr/posts/bilbao_architecture.fr/</link>
+      <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/fr/posts/bilbao_architecture.fr/</guid>
+      <description>Introduction À Bilbao, l&amp;rsquo;architecture est totalement unique — cette ville est vraiment exceptionnelle. En me promenant dans les rues, j&amp;rsquo;ai souvent eu l&amp;rsquo;impression que les architectes modernes jouent en combinant des éléments de différents styles et époques. On peut y voir des bâtiments baroques, gothiques, des cathédrales médiévales, des maisons standard des années 1960, des usines abandonnées, dont beaucoup ont été réaménagées en espaces culturels. À côté d&amp;rsquo;eux se trouvent des projets modernes et des monuments qui créent un kaléidoscope architectural.</description>
+    </item>
+    <item>
+      <title>Bilbao.</title>
+      <link>//localhost:1313/fr/posts/bilbao.fr/</link>
+      <pubDate>Sat, 13 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/fr/posts/bilbao.fr/</guid>
+      <description>Sur la ville ¡Buenos dias amigos y amigas!&#xA;J’ai réfléchi pendant longtemps à la manière de mieux structurer mon article sur Bilbao. J’ai déjà tous les éléments : des informations, des impressions, des photos et surtout l’envie de les partager avec vous. Mais chaque fois que je relisais ma narration, je n’étais pas satisfaite du résultat. Et voilà, aujourd’hui, enfin, c’est sorti !&#xA;Tout d’abord, je voudrais dire que Bilbao est la plus grande ville de la province de Biscaye.</description>
+    </item>
+    <item>
+      <title>Le Pays basque mystérieux.</title>
+      <link>//localhost:1313/fr/posts/mysterious-country-of-the-basque.fr/</link>
+      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/fr/posts/mysterious-country-of-the-basque.fr/</guid>
+      <description>Nous venons de rentrer de Bilbao, Espagne où nous avons passé tout le mois de février, d’avril et une semaine de mai.&#xA;Pendant ce séjour nous avons obtenu beaucoup d’impressions et d’informations que je voudrais partager avec vous à travers le prisme de ma pérception personelle. Je commence dès le début de notre séjour pour avancer dans l’ordre chronologique.&#xA;Bilbao (Bilbo en basque) c’est une grande ville dynamique qui se trouve dans le nord d’Espagne.</description>
+    </item>
+  </channel>
+</rss>

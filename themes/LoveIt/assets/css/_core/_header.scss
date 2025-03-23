@@ -36,7 +36,7 @@ header {
 }
 
 .header-title {
-  font-family: var(--header-title-font-family);
+  font-family: $secondary-global-font-family;
   font-weight: bold;
   margin-right: .5rem;
   min-width: 10%;
@@ -44,6 +44,9 @@ header {
   white-space: nowrap;
   text-overflow: ellipsis;
   @include flex(10);
+  a{
+    color: $logo-color-light
+  }
 }
 
 .menu .menu-item {
@@ -230,8 +233,9 @@ header {
       @include transition(margin-top 0.3s ease);
 
       .header-title {
-        font-size: var(--header-title-font-size);
+        font-size: $secondary-global-font-family;
         max-width: 80%;
+        color: $global-font-color;
       }
 
       .menu-toggle {
@@ -462,6 +466,7 @@ header {
 
       a {
         font-size: 1rem;
+
       }
     }
   }
