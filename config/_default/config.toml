@@ -2,9 +2,9 @@
 baseURL = "https://ShuvamKhamrui223.github.io/"
 title = "Madame Dutykh"
 theme = "LoveIt"  # Ensure the theme is specified
-defaultContentLanguage = "en"
+defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
-languageCode= "en-us"
+languageCode= "en"
 paginaton.pagerSize = 6
 ignoreErrors = ["error-remote-getjson"]
 
