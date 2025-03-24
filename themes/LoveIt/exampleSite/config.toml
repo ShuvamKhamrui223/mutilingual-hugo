@@ -57,37 +57,28 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 # Menu config
 # 菜单配置
-[menu]
-  [[menu.main]]
+[languages]
+  [languages.en]
     weight = 1
-    identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
-    post = ""
-    name = "Posts"
-    url = "/posts/"
-    # title will be shown when you hover on this menu link
-    # 当您将鼠标悬停在此菜单链接上时, 将显示标题
-    title = ""
-  [[menu.main]]
+    title = "Madame Dutykh"
+    languageCode = "en"
+    languageName = "English"
+    contentDir = "content/en/"
+    
+
+  [languages.ru]
     weight = 2
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "Tags"
-    url = "/tags/"
-    title = ""
-  [[menu.main]]
+    title = "Madame Dutykh"
+    languageCode = "ru"
+    languageName = "Русский"
+    contentDir = "content/ru/"
+    
+  [languages.fr]
     weight = 3
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "/categories/"
-    title = ""
+    title = "Madame Dutykh"
+    languageCode = "fr"
+    languageName = "Français"
+    contentDir = "content/fr/"
 
 [params]
   # site default theme ["auto", "light", "dark"]
