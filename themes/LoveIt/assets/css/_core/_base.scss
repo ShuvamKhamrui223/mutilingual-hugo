@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 html {
   font-weight: var(--global-font-weight);
@@ -25,14 +25,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto";
+  font-family: "Cormornat";
 }
 
 p,
-a,
 small,
-strong {
-  font-family: "Bodoni Moda";
+strong,span,.typeit,time,#text {
+  font-family: "Raleway";
 }
 
 /* scrollbar, only support webkit */
@@ -68,7 +67,9 @@ body {
     background-color: $global-background-color-dark;
   }
 }
-
+.ml-embedded{
+  margin-block: 2rem
+}
 @include link(true, true);
 
 @import "../_partial/mask";

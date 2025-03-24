@@ -36,7 +36,6 @@ header {
 }
 
 .header-title {
-  font-family: $secondary-global-font-family;
   font-weight: bold;
   margin-right: .5rem;
   min-width: 10%;
@@ -45,10 +44,15 @@ header {
   text-overflow: ellipsis;
   @include flex(10);
   a{
-    color: $logo-color-light
+    font-family: "Lora";
+    font-weight: 700;
+    color:#8a1820;
   }
 }
 
+body[theme="dark"] .header-title a{
+  color:$global-link-color-dark
+}
 .menu .menu-item {
   position: relative;
 }

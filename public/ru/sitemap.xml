@@ -11,10 +11,27 @@
                     hreflang="ru"
                     href="http://localhost:1313/ru/posts/the_priory_gardens_bourget_du_lac/"
                     /></url><url>
+            <loc>http://localhost:1313/ru/posts/bilbao_architecture.ru-copy-2/</loc><lastmod>2024-10-14T00:00:00&#43;00:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="http://localhost:1313/fr/posts/bilbao_architecture/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="ru"
+                        href="http://localhost:1313/ru/posts/bilbao_architecture/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="ru"
+                    href="http://localhost:1313/ru/posts/bilbao_architecture.ru-copy-2/"
+                    /></url><url>
             <loc>http://localhost:1313/ru/posts/bilbao_architecture/</loc><lastmod>2024-10-14T00:00:00&#43;00:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="http://localhost:1313/fr/posts/bilbao_architecture/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="ru"
+                        href="http://localhost:1313/ru/posts/bilbao_architecture.ru-copy-2/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="ru"

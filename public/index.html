@@ -52,9 +52,10 @@
     "https://assets.mailerlite.com/js/universal.js",
     "ml"
   );
-  ml("account", "1402500");
+  ml("account", "1405475");
 </script>
 
+<script src="/js/logo-color-change.js"></script>
 <script type="application/ld+json">
     {
         "@context": "http://schema.org",
@@ -106,7 +107,7 @@
 </header><main class="main">
                 <div class="container"><div class="page home" data-home="posts"><div class="home-profile"><div class="home-subtitle"><div id="id-1" class="typeit"></div></div><div class="links"><a href="https://www.instagram.com///" title="Instagram" target="_blank" rel="noopener noreffer me"><i class="fab fa-instagram fa-fw" aria-hidden="true"></i></a><a href="https://facebook.com//" title="facebook" target="_blank" rel="noopener noreffer me"><i class="fab fa-facebook fa-fw" aria-hidden="true"></i></a></div></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/posts/post1/">Welcome</a>
+        <a href="/posts/post1.en-copy-10/">Welcome</a>
     </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span>&nbsp;<span class="post-publish">published on <time datetime="0001-01-01">0001-01-01</time></span></div><div class="content"><p>This is the English version of the website.</p>
 <link
   rel="stylesheet"
@@ -258,10 +259,788 @@ alt="gallery image" loading="lazy"/>
 </style>
 
 <h2 id="slider">slider</h2></div><div class="post-footer">
-        <a href="/posts/post1/">Read More</a></div>
-</article></div></div>
+        <a href="/posts/post1.en-copy-10/">Read More</a></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/posts/post1.en-copy-2/">Welcome</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span>&nbsp;<span class="post-publish">published on <time datetime="0001-01-01">0001-01-01</time></span></div><div class="content"><p>This is the English version of the website.</p>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/lightgallery/css/lightgallery-bundle.min.css"
+/>
+<div id="lightgallery">
+  <img src="/images/post-1/2015_Bilbao_Spain_DSC_0019_hu_ed0454637034031e.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/Bilbao_collage_1_hu_3c3be9b61d3a008f.webp" width="400" height="222"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/2015_Bilbao_Spain_DSC_0023_hu_7cb60c8b1098ad5.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/DSC_0916_000_hu_564b00ec2edcc83.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/2015_Jardins_Prieure_Bourget_Lac_DSC_0904_hu_6b1e76374e5e0416.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/Bilbao_collage_1_hu_3c3be9b61d3a008f.webp" width="400" height="222"
+alt="gallery image" loading="lazy"/>  
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery/lightgallery.umd.min.js"></script>
+
+<script>
+  lightGallery(document.getElementById("lightgallery"));
+</script>
+
+<style>
+  #lightgallery {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 14px;
+    margin: auto;
+    min-height: 20rem;
+    max-width: 1000px;
+  }
+
+  #lightgallery img {
+    width: 100%;
+    height: 100%;
+    max-height: 25rem;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 6px;
+    transition: all 0.4s ease;
+    &:hover {
+      scale: 105%;
+    }
+    &:first-child {
+      grid-column: span 3;
+    }
+    &:nth-child(2) {
+      grid-column: 4/5;
+    }
+    &:nth-child(3) {
+      grid-column: 5/7;
+    }
+    &:nth-child(4) {
+      grid-column: 7/8;
+    }
+    &:nth-child(5) {
+      grid: 2/3 7/8;
+    }
+    &:nth-child(6) {
+      grid-column: 2/5;
+    }
+  }
+
+  @media screen and (width <= 1024px) {
+    #lightgallery {
+      max-width: 700px;
+    }
+  }
+
+  @media screen and (width<= 768px) {
+    #lightgallery {
+      max-width: 500px;
+      grid-template-rows: repeat(4, 1fr);
+
+      img {
+        max-height: 15rem;
+      }
+
+      img:first-child {
+        grid-column: 1/-1;
+      }
+      img:nth-child(2) {
+        grid-column: 1/4;
+        grid-row: 2/3;
+      }
+      img:nth-child(3) {
+        grid-column: 4/8;
+        grid-row: 2/3;
+      }
+      img:nth-child(4) {
+        grid-column: 1/5;
+        grid-row: 3/4;
+      }
+      img:nth-child(5) {
+        grid-column: 5/8;
+        grid-row: 3/4;
+      }
+      img:last-child {
+        grid-column: 1/-1;
+        grid-row: 4/5;
+      }
+    }
+  }
+
+  @media screen and (width <= 430px) {
+    #lightgallery {
+      max-width: 95%;
+      grid-template-rows: 150px 375px 550px 450px 600px 150px;
+      img {
+        max-height: 100%;
+        height: 100%;
+      }
+      img:first-child {
+        grid-row: 1/2;
+        grid-column: 1/-1;
+      }
+      img:nth-child(2) {
+        grid-row: 2/3;
+        grid-column: 1/-1;
+      }
+      img:nth-child(3) {
+        grid-column: 1/-1;
+        grid-row: 3/4;
+      }
+      img:nth-child(4) {
+        grid-row: 4/5;
+        grid-column: 1/-1;
+      }
+      img:nth-child(5) {
+        grid-column: 1/-1;
+        grid-row: 5/6;
+      }
+      img:nth-child(6) {
+        grid-column: 1/-1;
+        grid-row: 6/7;
+      }
+    }
+  }
+</style>
+
+<h2 id="slider">slider</h2></div><div class="post-footer">
+        <a href="/posts/post1.en-copy-2/">Read More</a></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/posts/post1.en-copy-3/">Welcome</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span>&nbsp;<span class="post-publish">published on <time datetime="0001-01-01">0001-01-01</time></span></div><div class="content"><p>This is the English version of the website.</p>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/lightgallery/css/lightgallery-bundle.min.css"
+/>
+<div id="lightgallery">
+  <img src="/images/post-1/2015_Bilbao_Spain_DSC_0019_hu_ed0454637034031e.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/Bilbao_collage_1_hu_3c3be9b61d3a008f.webp" width="400" height="222"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/2015_Bilbao_Spain_DSC_0023_hu_7cb60c8b1098ad5.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/DSC_0916_000_hu_564b00ec2edcc83.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/2015_Jardins_Prieure_Bourget_Lac_DSC_0904_hu_6b1e76374e5e0416.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/Bilbao_collage_1_hu_3c3be9b61d3a008f.webp" width="400" height="222"
+alt="gallery image" loading="lazy"/>  
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery/lightgallery.umd.min.js"></script>
+
+<script>
+  lightGallery(document.getElementById("lightgallery"));
+</script>
+
+<style>
+  #lightgallery {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 14px;
+    margin: auto;
+    min-height: 20rem;
+    max-width: 1000px;
+  }
+
+  #lightgallery img {
+    width: 100%;
+    height: 100%;
+    max-height: 25rem;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 6px;
+    transition: all 0.4s ease;
+    &:hover {
+      scale: 105%;
+    }
+    &:first-child {
+      grid-column: span 3;
+    }
+    &:nth-child(2) {
+      grid-column: 4/5;
+    }
+    &:nth-child(3) {
+      grid-column: 5/7;
+    }
+    &:nth-child(4) {
+      grid-column: 7/8;
+    }
+    &:nth-child(5) {
+      grid: 2/3 7/8;
+    }
+    &:nth-child(6) {
+      grid-column: 2/5;
+    }
+  }
+
+  @media screen and (width <= 1024px) {
+    #lightgallery {
+      max-width: 700px;
+    }
+  }
+
+  @media screen and (width<= 768px) {
+    #lightgallery {
+      max-width: 500px;
+      grid-template-rows: repeat(4, 1fr);
+
+      img {
+        max-height: 15rem;
+      }
+
+      img:first-child {
+        grid-column: 1/-1;
+      }
+      img:nth-child(2) {
+        grid-column: 1/4;
+        grid-row: 2/3;
+      }
+      img:nth-child(3) {
+        grid-column: 4/8;
+        grid-row: 2/3;
+      }
+      img:nth-child(4) {
+        grid-column: 1/5;
+        grid-row: 3/4;
+      }
+      img:nth-child(5) {
+        grid-column: 5/8;
+        grid-row: 3/4;
+      }
+      img:last-child {
+        grid-column: 1/-1;
+        grid-row: 4/5;
+      }
+    }
+  }
+
+  @media screen and (width <= 430px) {
+    #lightgallery {
+      max-width: 95%;
+      grid-template-rows: 150px 375px 550px 450px 600px 150px;
+      img {
+        max-height: 100%;
+        height: 100%;
+      }
+      img:first-child {
+        grid-row: 1/2;
+        grid-column: 1/-1;
+      }
+      img:nth-child(2) {
+        grid-row: 2/3;
+        grid-column: 1/-1;
+      }
+      img:nth-child(3) {
+        grid-column: 1/-1;
+        grid-row: 3/4;
+      }
+      img:nth-child(4) {
+        grid-row: 4/5;
+        grid-column: 1/-1;
+      }
+      img:nth-child(5) {
+        grid-column: 1/-1;
+        grid-row: 5/6;
+      }
+      img:nth-child(6) {
+        grid-column: 1/-1;
+        grid-row: 6/7;
+      }
+    }
+  }
+</style>
+
+<h2 id="slider">slider</h2></div><div class="post-footer">
+        <a href="/posts/post1.en-copy-3/">Read More</a></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/posts/post1.en-copy-4/">Welcome</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span>&nbsp;<span class="post-publish">published on <time datetime="0001-01-01">0001-01-01</time></span></div><div class="content"><p>This is the English version of the website.</p>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/lightgallery/css/lightgallery-bundle.min.css"
+/>
+<div id="lightgallery">
+  <img src="/images/post-1/2015_Bilbao_Spain_DSC_0019_hu_ed0454637034031e.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/Bilbao_collage_1_hu_3c3be9b61d3a008f.webp" width="400" height="222"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/2015_Bilbao_Spain_DSC_0023_hu_7cb60c8b1098ad5.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/DSC_0916_000_hu_564b00ec2edcc83.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/2015_Jardins_Prieure_Bourget_Lac_DSC_0904_hu_6b1e76374e5e0416.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/Bilbao_collage_1_hu_3c3be9b61d3a008f.webp" width="400" height="222"
+alt="gallery image" loading="lazy"/>  
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery/lightgallery.umd.min.js"></script>
+
+<script>
+  lightGallery(document.getElementById("lightgallery"));
+</script>
+
+<style>
+  #lightgallery {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 14px;
+    margin: auto;
+    min-height: 20rem;
+    max-width: 1000px;
+  }
+
+  #lightgallery img {
+    width: 100%;
+    height: 100%;
+    max-height: 25rem;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 6px;
+    transition: all 0.4s ease;
+    &:hover {
+      scale: 105%;
+    }
+    &:first-child {
+      grid-column: span 3;
+    }
+    &:nth-child(2) {
+      grid-column: 4/5;
+    }
+    &:nth-child(3) {
+      grid-column: 5/7;
+    }
+    &:nth-child(4) {
+      grid-column: 7/8;
+    }
+    &:nth-child(5) {
+      grid: 2/3 7/8;
+    }
+    &:nth-child(6) {
+      grid-column: 2/5;
+    }
+  }
+
+  @media screen and (width <= 1024px) {
+    #lightgallery {
+      max-width: 700px;
+    }
+  }
+
+  @media screen and (width<= 768px) {
+    #lightgallery {
+      max-width: 500px;
+      grid-template-rows: repeat(4, 1fr);
+
+      img {
+        max-height: 15rem;
+      }
+
+      img:first-child {
+        grid-column: 1/-1;
+      }
+      img:nth-child(2) {
+        grid-column: 1/4;
+        grid-row: 2/3;
+      }
+      img:nth-child(3) {
+        grid-column: 4/8;
+        grid-row: 2/3;
+      }
+      img:nth-child(4) {
+        grid-column: 1/5;
+        grid-row: 3/4;
+      }
+      img:nth-child(5) {
+        grid-column: 5/8;
+        grid-row: 3/4;
+      }
+      img:last-child {
+        grid-column: 1/-1;
+        grid-row: 4/5;
+      }
+    }
+  }
+
+  @media screen and (width <= 430px) {
+    #lightgallery {
+      max-width: 95%;
+      grid-template-rows: 150px 375px 550px 450px 600px 150px;
+      img {
+        max-height: 100%;
+        height: 100%;
+      }
+      img:first-child {
+        grid-row: 1/2;
+        grid-column: 1/-1;
+      }
+      img:nth-child(2) {
+        grid-row: 2/3;
+        grid-column: 1/-1;
+      }
+      img:nth-child(3) {
+        grid-column: 1/-1;
+        grid-row: 3/4;
+      }
+      img:nth-child(4) {
+        grid-row: 4/5;
+        grid-column: 1/-1;
+      }
+      img:nth-child(5) {
+        grid-column: 1/-1;
+        grid-row: 5/6;
+      }
+      img:nth-child(6) {
+        grid-column: 1/-1;
+        grid-row: 6/7;
+      }
+    }
+  }
+</style>
+
+<h2 id="slider">slider</h2></div><div class="post-footer">
+        <a href="/posts/post1.en-copy-4/">Read More</a></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/posts/post1.en-copy-5/">Welcome</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span>&nbsp;<span class="post-publish">published on <time datetime="0001-01-01">0001-01-01</time></span></div><div class="content"><p>This is the English version of the website.</p>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/lightgallery/css/lightgallery-bundle.min.css"
+/>
+<div id="lightgallery">
+  <img src="/images/post-1/2015_Bilbao_Spain_DSC_0019_hu_ed0454637034031e.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/Bilbao_collage_1_hu_3c3be9b61d3a008f.webp" width="400" height="222"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/2015_Bilbao_Spain_DSC_0023_hu_7cb60c8b1098ad5.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/DSC_0916_000_hu_564b00ec2edcc83.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/2015_Jardins_Prieure_Bourget_Lac_DSC_0904_hu_6b1e76374e5e0416.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/Bilbao_collage_1_hu_3c3be9b61d3a008f.webp" width="400" height="222"
+alt="gallery image" loading="lazy"/>  
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery/lightgallery.umd.min.js"></script>
+
+<script>
+  lightGallery(document.getElementById("lightgallery"));
+</script>
+
+<style>
+  #lightgallery {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 14px;
+    margin: auto;
+    min-height: 20rem;
+    max-width: 1000px;
+  }
+
+  #lightgallery img {
+    width: 100%;
+    height: 100%;
+    max-height: 25rem;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 6px;
+    transition: all 0.4s ease;
+    &:hover {
+      scale: 105%;
+    }
+    &:first-child {
+      grid-column: span 3;
+    }
+    &:nth-child(2) {
+      grid-column: 4/5;
+    }
+    &:nth-child(3) {
+      grid-column: 5/7;
+    }
+    &:nth-child(4) {
+      grid-column: 7/8;
+    }
+    &:nth-child(5) {
+      grid: 2/3 7/8;
+    }
+    &:nth-child(6) {
+      grid-column: 2/5;
+    }
+  }
+
+  @media screen and (width <= 1024px) {
+    #lightgallery {
+      max-width: 700px;
+    }
+  }
+
+  @media screen and (width<= 768px) {
+    #lightgallery {
+      max-width: 500px;
+      grid-template-rows: repeat(4, 1fr);
+
+      img {
+        max-height: 15rem;
+      }
+
+      img:first-child {
+        grid-column: 1/-1;
+      }
+      img:nth-child(2) {
+        grid-column: 1/4;
+        grid-row: 2/3;
+      }
+      img:nth-child(3) {
+        grid-column: 4/8;
+        grid-row: 2/3;
+      }
+      img:nth-child(4) {
+        grid-column: 1/5;
+        grid-row: 3/4;
+      }
+      img:nth-child(5) {
+        grid-column: 5/8;
+        grid-row: 3/4;
+      }
+      img:last-child {
+        grid-column: 1/-1;
+        grid-row: 4/5;
+      }
+    }
+  }
+
+  @media screen and (width <= 430px) {
+    #lightgallery {
+      max-width: 95%;
+      grid-template-rows: 150px 375px 550px 450px 600px 150px;
+      img {
+        max-height: 100%;
+        height: 100%;
+      }
+      img:first-child {
+        grid-row: 1/2;
+        grid-column: 1/-1;
+      }
+      img:nth-child(2) {
+        grid-row: 2/3;
+        grid-column: 1/-1;
+      }
+      img:nth-child(3) {
+        grid-column: 1/-1;
+        grid-row: 3/4;
+      }
+      img:nth-child(4) {
+        grid-row: 4/5;
+        grid-column: 1/-1;
+      }
+      img:nth-child(5) {
+        grid-column: 1/-1;
+        grid-row: 5/6;
+      }
+      img:nth-child(6) {
+        grid-column: 1/-1;
+        grid-row: 6/7;
+      }
+    }
+  }
+</style>
+
+<h2 id="slider">slider</h2></div><div class="post-footer">
+        <a href="/posts/post1.en-copy-5/">Read More</a></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/posts/post1.en-copy-6/">Welcome</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span>&nbsp;<span class="post-publish">published on <time datetime="0001-01-01">0001-01-01</time></span></div><div class="content"><p>This is the English version of the website.</p>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/lightgallery/css/lightgallery-bundle.min.css"
+/>
+<div id="lightgallery">
+  <img src="/images/post-1/2015_Bilbao_Spain_DSC_0019_hu_ed0454637034031e.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/Bilbao_collage_1_hu_3c3be9b61d3a008f.webp" width="400" height="222"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/2015_Bilbao_Spain_DSC_0023_hu_7cb60c8b1098ad5.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/DSC_0916_000_hu_564b00ec2edcc83.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/2015_Jardins_Prieure_Bourget_Lac_DSC_0904_hu_6b1e76374e5e0416.webp" width="400" height="265"
+alt="gallery image" loading="lazy"/>  
+
+  <img src="/images/post-1/Bilbao_collage_1_hu_3c3be9b61d3a008f.webp" width="400" height="222"
+alt="gallery image" loading="lazy"/>  
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery/lightgallery.umd.min.js"></script>
+
+<script>
+  lightGallery(document.getElementById("lightgallery"));
+</script>
+
+<style>
+  #lightgallery {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 14px;
+    margin: auto;
+    min-height: 20rem;
+    max-width: 1000px;
+  }
+
+  #lightgallery img {
+    width: 100%;
+    height: 100%;
+    max-height: 25rem;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 6px;
+    transition: all 0.4s ease;
+    &:hover {
+      scale: 105%;
+    }
+    &:first-child {
+      grid-column: span 3;
+    }
+    &:nth-child(2) {
+      grid-column: 4/5;
+    }
+    &:nth-child(3) {
+      grid-column: 5/7;
+    }
+    &:nth-child(4) {
+      grid-column: 7/8;
+    }
+    &:nth-child(5) {
+      grid: 2/3 7/8;
+    }
+    &:nth-child(6) {
+      grid-column: 2/5;
+    }
+  }
+
+  @media screen and (width <= 1024px) {
+    #lightgallery {
+      max-width: 700px;
+    }
+  }
+
+  @media screen and (width<= 768px) {
+    #lightgallery {
+      max-width: 500px;
+      grid-template-rows: repeat(4, 1fr);
+
+      img {
+        max-height: 15rem;
+      }
+
+      img:first-child {
+        grid-column: 1/-1;
+      }
+      img:nth-child(2) {
+        grid-column: 1/4;
+        grid-row: 2/3;
+      }
+      img:nth-child(3) {
+        grid-column: 4/8;
+        grid-row: 2/3;
+      }
+      img:nth-child(4) {
+        grid-column: 1/5;
+        grid-row: 3/4;
+      }
+      img:nth-child(5) {
+        grid-column: 5/8;
+        grid-row: 3/4;
+      }
+      img:last-child {
+        grid-column: 1/-1;
+        grid-row: 4/5;
+      }
+    }
+  }
+
+  @media screen and (width <= 430px) {
+    #lightgallery {
+      max-width: 95%;
+      grid-template-rows: 150px 375px 550px 450px 600px 150px;
+      img {
+        max-height: 100%;
+        height: 100%;
+      }
+      img:first-child {
+        grid-row: 1/2;
+        grid-column: 1/-1;
+      }
+      img:nth-child(2) {
+        grid-row: 2/3;
+        grid-column: 1/-1;
+      }
+      img:nth-child(3) {
+        grid-column: 1/-1;
+        grid-row: 3/4;
+      }
+      img:nth-child(4) {
+        grid-row: 4/5;
+        grid-column: 1/-1;
+      }
+      img:nth-child(5) {
+        grid-column: 1/-1;
+        grid-row: 5/6;
+      }
+      img:nth-child(6) {
+        grid-column: 1/-1;
+        grid-row: 6/7;
+      }
+    }
+  }
+</style>
+
+<h2 id="slider">slider</h2></div><div class="post-footer">
+        <a href="/posts/post1.en-copy-6/">Read More</a></div>
+</article><ul class="pagination"><li class="page-item active">
+                    <span class="page-link">
+                        <a href="/">1</a>
+                    </span>
+                </li><li class="page-item ">
+                    <span class="page-link">
+                        <a href="/page/2/">2</a>
+                    </span>
+                </li></ul></div></div>
             </main>
-            <div class="ml-embedded" data-form="vgLIZE"></div><footer class="footer">
+            <div class="ml-embedded" data-form="Moo54G"></div><footer class="footer">
         <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.145.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
                 </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2024 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
         </div>

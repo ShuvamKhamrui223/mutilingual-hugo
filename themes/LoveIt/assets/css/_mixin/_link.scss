@@ -1,5 +1,6 @@
 @mixin link($light, $dark) {
   a, a::before, a::after {
+    font-family: "Raleway";
     text-decoration: none;
 
     @if $light {
