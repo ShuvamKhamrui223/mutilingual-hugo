@@ -5,8 +5,6 @@
 
     @if $light {
       color: $global-link-color;
-    } @else {
-      color: $single-link-color;
     }
 
     [theme=dark] & {
