@@ -10,6 +10,8 @@ slides:
 ---
 This is the English version of the website post 1.
 
+{{< carousel config="carousel2" items="1" height="500" unit="px" duration="7000" >}}
+
 {{< lightgallery >}}
 {{< image src="images/post-1/2015_Bilbao_Spain_DSC_0019.JPG" alt="gallery image" >}}
 {{< image src="images/post-1/Bilbao_collage_1.jpg" alt="gallery image" >}}

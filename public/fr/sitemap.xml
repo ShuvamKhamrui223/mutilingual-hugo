@@ -45,7 +45,7 @@
             <loc>http://localhost:1313/fr/about/</loc><lastmod>2024-09-18T00:00:00&#43;00:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://localhost:1313/about/"
+                        href="http://localhost:1313/en/about/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="ru"
@@ -58,7 +58,7 @@
             <loc>http://localhost:1313/fr/</loc><lastmod>2024-10-26T00:00:00&#43;00:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://localhost:1313/"
+                        href="http://localhost:1313/en/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="ru"
@@ -73,7 +73,7 @@
             <loc>http://localhost:1313/fr/categories/</loc><lastmod>2024-10-26T00:00:00&#43;00:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://localhost:1313/categories/"
+                        href="http://localhost:1313/en/categories/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="ru"
@@ -91,7 +91,7 @@
             <loc>http://localhost:1313/fr/posts/</loc><lastmod>2024-10-26T00:00:00&#43;00:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://localhost:1313/posts/"
+                        href="http://localhost:1313/en/posts/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="ru"
@@ -106,7 +106,7 @@
             <loc>http://localhost:1313/fr/tags/</loc><lastmod>2024-10-26T00:00:00&#43;00:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://localhost:1313/tags/"
+                        href="http://localhost:1313/en/tags/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="ru"

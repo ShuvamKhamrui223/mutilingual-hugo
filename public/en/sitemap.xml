@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/about/</loc><lastmod>2024-09-18T00:00:00&#43;00:00</lastmod><xhtml:link
+            <loc>http://localhost:1313/en/about/</loc><lastmod>2024-09-18T00:00:00&#43;00:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="http://localhost:1313/fr/about/"
@@ -13,9 +13,9 @@
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:1313/about/"
+                    href="http://localhost:1313/en/about/"
                     /></url><url>
-            <loc>http://localhost:1313/</loc><lastmod>2024-09-18T00:00:00&#43;00:00</lastmod><xhtml:link
+            <loc>http://localhost:1313/en/</loc><lastmod>2024-09-18T00:00:00&#43;00:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="http://localhost:1313/fr/"
@@ -26,9 +26,9 @@
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:1313/"
+                    href="http://localhost:1313/en/"
                     /></url><url>
-            <loc>http://localhost:1313/categories/</loc><xhtml:link
+            <loc>http://localhost:1313/en/categories/</loc><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="http://localhost:1313/fr/categories/"
@@ -39,9 +39,9 @@
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:1313/categories/"
+                    href="http://localhost:1313/en/categories/"
                     /></url><url>
-            <loc>http://localhost:1313/posts/</loc><xhtml:link
+            <loc>http://localhost:1313/en/posts/</loc><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="http://localhost:1313/fr/posts/"
@@ -52,9 +52,9 @@
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:1313/posts/"
+                    href="http://localhost:1313/en/posts/"
                     /></url><url>
-            <loc>http://localhost:1313/tags/</loc><xhtml:link
+            <loc>http://localhost:1313/en/tags/</loc><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="http://localhost:1313/fr/tags/"
@@ -65,11 +65,11 @@
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:1313/tags/"
+                    href="http://localhost:1313/en/tags/"
                     /></url><url>
-            <loc>http://localhost:1313/posts/post1.en-copy-10/</loc></url><url>
-            <loc>http://localhost:1313/posts/post1.en-copy-2/</loc></url><url>
-            <loc>http://localhost:1313/posts/post1.en-copy-8/</loc></url><url>
-            <loc>http://localhost:1313/posts/post1.en-copy-9/</loc></url><url>
-            <loc>http://localhost:1313/posts/post1.en-copy/</loc></url><url>
-            <loc>http://localhost:1313/posts/post1/</loc></url></urlset>
+            <loc>http://localhost:1313/en/posts/post1.en-copy-10/</loc></url><url>
+            <loc>http://localhost:1313/en/posts/post1.en-copy-2/</loc></url><url>
+            <loc>http://localhost:1313/en/posts/post1.en-copy-8/</loc></url><url>
+            <loc>http://localhost:1313/en/posts/post1.en-copy-9/</loc></url><url>
+            <loc>http://localhost:1313/en/posts/post1.en-copy/</loc></url><url>
+            <loc>http://localhost:1313/en/posts/post1/</loc></url></urlset>

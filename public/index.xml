@@ -33,7 +33,7 @@
 <script src="https://cdn.jsdelivr.net/npm/lightgallery/lightgallery.umd.min.js"></script>
 
 <script>
-  lightGallery(document.getElementById("lightgallery"));
+  lightGallery(document.getElementById("lightgallery"), { counter: false });
 </script>
 
 <style>
@@ -185,7 +185,7 @@
 <script src="https://cdn.jsdelivr.net/npm/lightgallery/lightgallery.umd.min.js"></script>
 
 <script>
-  lightGallery(document.getElementById("lightgallery"));
+  lightGallery(document.getElementById("lightgallery"), { counter: false });
 </script>
 
 <style>
@@ -337,7 +337,7 @@
 <script src="https://cdn.jsdelivr.net/npm/lightgallery/lightgallery.umd.min.js"></script>
 
 <script>
-  lightGallery(document.getElementById("lightgallery"));
+  lightGallery(document.getElementById("lightgallery"), { counter: false });
 </script>
 
 <style>
@@ -489,7 +489,7 @@
 <script src="https://cdn.jsdelivr.net/npm/lightgallery/lightgallery.umd.min.js"></script>
 
 <script>
-  lightGallery(document.getElementById("lightgallery"));
+  lightGallery(document.getElementById("lightgallery"), { counter: false });
 </script>
 
 <style>
@@ -641,7 +641,7 @@
 <script src="https://cdn.jsdelivr.net/npm/lightgallery/lightgallery.umd.min.js"></script>
 
 <script>
-  lightGallery(document.getElementById("lightgallery"));
+  lightGallery(document.getElementById("lightgallery"), { counter: false });
 </script>
 
 <style>
@@ -772,6 +772,151 @@
     <author>Author</author>
     <guid>http://localhost:1313/posts/post1/</guid>
     <description><![CDATA[<p>This is the English version of the website post 1.</p>
+
+
+
+
+
+
+
+  
+
+<div id="carousel0" class="carousel" duration="7000">
+    <ul>
+        
+      <li id="c0_slide1" style="min-width: calc(100%1); padding-bottom: 500px;">
+          
+          <div>
+            <div></div>
+          </div>
+        </li>
+        
+      <li id="c0_slide2" style="min-width: calc(100%1); padding-bottom: 500px;">
+          
+          <div>
+            <div></div>
+          </div>
+        </li>
+        
+      <li id="c0_slide3" style="min-width: calc(100%1); padding-bottom: 500px;">
+          
+          <div>
+            <div></div>
+          </div>
+        </li>
+        
+      <li id="c0_slide4" style="min-width: calc(100%1); padding-bottom: 500px;">
+          
+          <div>
+            <div></div>
+          </div>
+        </li>
+        
+      <li id="c0_slide5" style="min-width: calc(100%1); padding-bottom: 500px;">
+          
+          <div>
+            <div></div>
+          </div>
+        </li>
+        
+      <li id="c0_slide6" style="min-width: calc(100%1); padding-bottom: 500px;">
+          
+          <div>
+            <div></div>
+          </div>
+        </li>
+        
+      <li id="c0_slide7" style="min-width: calc(100%1); padding-bottom: 500px;">
+          
+          <div>
+            <div></div>
+          </div>
+        </li>
+        
+      <li id="c0_slide8" style="min-width: calc(100%1); padding-bottom: 500px;">
+          
+          <div>
+            <div></div>
+          </div>
+        </li>
+        
+      <li id="c0_slide9" style="min-width: calc(100%1); padding-bottom: 500px;">
+          
+          <div>
+            <div></div>
+          </div>
+        </li>
+        
+      <li id="c0_slide10" style="min-width: calc(100%1); padding-bottom: 500px;">
+          
+          <div>
+            <div></div>
+          </div>
+        </li>
+        
+      <li id="c0_slide11" style="min-width: calc(100%1); padding-bottom: 500px;">
+          
+          <div>
+            <div></div>
+          </div>
+        </li>
+        
+      <li id="c0_slide12" style="min-width: calc(100%1); padding-bottom: 500px;">
+          
+          <div>
+            <div></div>
+          </div>
+        </li>
+        
+      <li id="c0_slide13" style="min-width: calc(100%1); padding-bottom: 500px;">
+          
+          <div>
+            <div></div>
+          </div>
+        </li>
+        
+      <li id="c0_slide14" style="min-width: calc(100%1); padding-bottom: 500px;">
+          
+          <div>
+            <div></div>
+          </div>
+        </li>
+      
+    </ul>
+    <ol>
+        
+        <li><a href="#c0_slide1"></a></li>
+        
+        <li><a href="#c0_slide2"></a></li>
+        
+        <li><a href="#c0_slide3"></a></li>
+        
+        <li><a href="#c0_slide4"></a></li>
+        
+        <li><a href="#c0_slide5"></a></li>
+        
+        <li><a href="#c0_slide6"></a></li>
+        
+        <li><a href="#c0_slide7"></a></li>
+        
+        <li><a href="#c0_slide8"></a></li>
+        
+        <li><a href="#c0_slide9"></a></li>
+        
+        <li><a href="#c0_slide10"></a></li>
+        
+        <li><a href="#c0_slide11"></a></li>
+        
+        <li><a href="#c0_slide12"></a></li>
+        
+        <li><a href="#c0_slide13"></a></li>
+        
+        <li><a href="#c0_slide14"></a></li>
+      
+    </ol>
+    <div class="prev">&lsaquo;</div>
+    <div class="next">&rsaquo;</div>
+</div>
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/lightgallery/css/lightgallery-bundle.min.css"
@@ -793,7 +938,7 @@
 <script src="https://cdn.jsdelivr.net/npm/lightgallery/lightgallery.umd.min.js"></script>
 
 <script>
-  lightGallery(document.getElementById("lightgallery"));
+  lightGallery(document.getElementById("lightgallery"), { counter: false });
 </script>
 
 <style>
@@ -946,6 +1091,8 @@
       window.lightGallery(container, {
         plugins: [lgThumbnail],
         selector: ".lg-item",
+        exThumbImage: "data-external-thumb-image",
+        escKey: true,
       });
     });
   });
@@ -961,24 +1108,36 @@
     <div class="carousel-item active">
         
       
-
-      
+      <a
+        href="/images/post-1/2015_Bilbao_Spain_DSC_0019_hu_af623f2280fc1c5b.webp"
+        data-external-thumb-image="/images/post-1/2015_Bilbao_Spain_DSC_0019_hu_af623f2280fc1c5b.webp"
+      >
+        
+      </a>
       
     </div>
     
     <div class="carousel-item ">
         
       
-
-      
+      <a
+        href="/images/post-1/2015_Bilbao_Spain_DSC_0019_hu_af623f2280fc1c5b.webp"
+        data-external-thumb-image="/images/post-1/2015_Bilbao_Spain_DSC_0019_hu_af623f2280fc1c5b.webp"
+      >
+        
+      </a>
       
     </div>
     
     <div class="carousel-item ">
         
       
-
-      
+      <a
+        href="/images/post-1/2015_Bilbao_Spain_DSC_0019_hu_af623f2280fc1c5b.webp"
+        data-external-thumb-image="/images/post-1/2015_Bilbao_Spain_DSC_0019_hu_af623f2280fc1c5b.webp"
+      >
+        
+      </a>
       
     </div>
     

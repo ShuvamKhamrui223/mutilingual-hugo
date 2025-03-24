@@ -28,6 +28,8 @@
       window.lightGallery(container, {
         plugins: [lgThumbnail],
         selector: ".lg-item",
+        exThumbImage: "data-external-thumb-image",
+        escKey: true,
       });
     });
   });
@@ -44,12 +46,16 @@
       {{ $original := resources.Get $img.image }} {{ if $original }} {{ $webp :=
       $original.Resize "1200x webp q60" }}
       <!-- Convert to WebP & Reduce Quality -->
-
-      <img
-        src="{{$webp.RelPermalink}}"
-        alt="{{$img.caption}}"
-        data-lg-id="{{$webp.RelPermalink}}"
-      />
+      <a
+        href="{{$webp.RelPermalink}}"
+        data-external-thumb-image="{{$webp.RelPermalink}}"
+      >
+        <img
+          src="{{$webp.RelPermalink}}"
+          alt="{{$img.caption}}"
+          data-lg-id="{{$webp.RelPermalink}}"
+        />
+      </a>
       {{ end }}
     </div>
     {{ end }}

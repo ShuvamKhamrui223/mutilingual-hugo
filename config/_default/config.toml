@@ -3,6 +3,8 @@ baseURL = "https://ShuvamKhamrui223.github.io/"
 title = "Madame Dutykh"
 theme = "LoveIt"  # Ensure the theme is specified
 defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+languageCode= "en-us"
 paginaton.pagerSize = 6
 ignoreErrors = ["error-remote-getjson"]
 
@@ -20,7 +22,7 @@ ignoreErrors = ["error-remote-getjson"]
     title = "Madame Dutykh"
     languageCode = "en"
     languageName = "English"
-    contentDir = "content/en"
+    contentDir = "content/en/"
     
 
   [languages.ru]
@@ -28,14 +30,14 @@ ignoreErrors = ["error-remote-getjson"]
     title = "Madame Dutykh"
     languageCode = "ru"
     languageName = "Русский"
-    contentDir = "content/ru"
+    contentDir = "content/ru/"
     
   [languages.fr]
     weight = 3
     title = "Madame Dutykh"
     languageCode = "fr"
     languageName = "Français"
-    contentDir = "content/fr"
+    contentDir = "content/fr/"
     
 
 # From hugo.toml
