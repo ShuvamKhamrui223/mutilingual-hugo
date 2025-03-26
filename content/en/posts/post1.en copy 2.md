@@ -10,15 +10,6 @@ slides:
 ---
 This is the English version of the website post 1.
 
-{{< lightgallery >}}
-{{< image src="images/post-1/Bilbao_collage_1.jpg" alt="gallery image" >}}
-{{< image src="images/post-1/Bilbao_collage_1.jpg" alt="gallery image" >}}
-{{< image src="images/post-1/Bilbao_collage_1.jpg" alt="gallery image" >}}
-{{< image src="images/post-1/Bilbao_collage_1.jpg" alt="gallery image" >}}
-{{< image src="images/post-1/Bilbao_collage_1.jpg" alt="gallery image" >}}
-{{< image src="images/post-1/Bilbao_collage_1.jpg" alt="gallery image" >}}
-{{< /lightgallery >}}
-
 ## slider
 
 {{< bootstrap-carousel >}}
