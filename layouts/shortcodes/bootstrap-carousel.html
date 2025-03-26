@@ -14,6 +14,9 @@
 {{ $id := .Get "id" | default "carouselExample" }}
 <script>
   document.addEventListener("DOMContentLoaded", () => {
+    const lightbox = GLightbox({ selector: ".glightbox", loop: true });
+  });
+  document.addEventListener("DOMContentLoaded", () => {
     let carouselEl = document.getElementById(" #{{$id}} ");
 
     // Create a new Bootstrap 5 Carousel instance with specified options
@@ -47,13 +50,14 @@
       $original.Resize "1200x webp q60" }}
       <!-- Convert to WebP & Reduce Quality -->
       <a
+        data-src="{{$webp.RelPermalink}}"
         href="{{$webp.RelPermalink}}"
-        data-external-thumb-image="{{$webp.RelPermalink}}"
+        class="lg-item glightbox"
       >
         <img
           src="{{$webp.RelPermalink}}"
           alt="{{$img.caption}}"
-          data-lg-id="{{$webp.RelPermalink}}"
+          class="img-responsive"
         />
       </a>
       {{ end }}

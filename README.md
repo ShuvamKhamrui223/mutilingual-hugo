@@ -10,3 +10,12 @@
 **Hugo version must be 0.145_extended for windows**
 
 image folder is placed inside assets for enabling image optimization
+
+{{< lightslider >}}
+{{< image src="images/post-1/Bilbao_collage_1.jpg" alt="gallery image" >}}
+{{< image src="images/post-1/Bilbao_collage_1.jpg" alt="gallery image" >}}
+{{< image src="images/post-1/Bilbao_collage_1.jpg" alt="gallery image" >}}
+{{< image src="images/post-1/Bilbao_collage_1.jpg" alt="gallery image" >}}
+{{< image src="images/post-1/Bilbao_collage_1.jpg" alt="gallery image" >}}
+{{< image src="images/post-1/Bilbao_collage_1.jpg" alt="gallery image" >}}
+{{< /lightslider >}}

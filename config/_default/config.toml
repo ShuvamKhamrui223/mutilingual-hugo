@@ -1,5 +1,5 @@
 # Core settings from config.toml
-baseURL = "https://shuvamkhamrui223.github.io/hugo_theme-test/"
+baseURL = "https://ShuvamKhamrui223.github.io/"
 title = "Madame Dutykh"
 theme = "LoveIt"  # Ensure the theme is specified
 defaultContentLanguage = 'en'

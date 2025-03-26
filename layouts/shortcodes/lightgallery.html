@@ -2,12 +2,17 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/lightgallery/css/lightgallery-bundle.min.css"
 />
-<div id="lightgallery">{{.Inner}}</div>
+<div id="lightgallery">
+  {{ $images := .Page.Params.galleryImages }} {{ range $index, $img := $images
+  }} {{ $original := resources.Get $img.image }} {{ if $original }} {{ $webp :=
+  $original.Resize "1200x webp q60" }}
+  <!-- Convert to WebP & Reduce Quality -->
+  <a href="{{$webp.RelPermalink}}" class="glightbox">
+    <img src="{{$webp.RelPermalink}}" alt="{{$img.caption}}" />
+  </a>
+  {{ end }} {{end}}
+</div>
 <script src="https://cdn.jsdelivr.net/npm/lightgallery/lightgallery.umd.min.js"></script>
-
-<script>
-  lightGallery(document.getElementById("lightgallery"), { counter: false });
-</script>
 
 <style>
   #lightgallery {
@@ -21,6 +26,7 @@
   }
 
   #lightgallery img {
+    display: block;
     width: 100%;
     height: 100%;
     max-height: 25rem;
@@ -31,6 +37,8 @@
     &:hover {
       scale: 105%;
     }
+  }
+  .glightbox {
     &:first-child {
       grid-column: span 3;
     }
@@ -50,7 +58,6 @@
       grid-column: 2/5;
     }
   }
-
   @media screen and (width <= 1024px) {
     #lightgallery {
       max-width: 700px;
@@ -66,26 +73,26 @@
         max-height: 15rem;
       }
 
-      img:first-child {
+      .glightbox:first-child {
         grid-column: 1/-1;
       }
-      img:nth-child(2) {
+      .glightbox:nth-child(2) {
         grid-column: 1/4;
         grid-row: 2/3;
       }
-      img:nth-child(3) {
+      .glightbox:nth-child(3) {
         grid-column: 4/8;
         grid-row: 2/3;
       }
-      img:nth-child(4) {
+      .glightbox:nth-child(4) {
         grid-column: 1/5;
         grid-row: 3/4;
       }
-      img:nth-child(5) {
+      .glightbox:nth-child(5) {
         grid-column: 5/8;
         grid-row: 3/4;
       }
-      img:last-child {
+      .glightbox:last-child {
         grid-column: 1/-1;
         grid-row: 4/5;
       }

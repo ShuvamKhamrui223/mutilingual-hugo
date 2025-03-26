@@ -1,0 +1,13 @@
+<script>
+  document.addEventListener("DOMContentLoaded",()=>{
+    const lightbox = GLightbox({selector:".glightbox"});
+  })
+</script>
+{{ $images := .Page.Params.slides }} {{ range $index, $img := $images }} {{
+$original := resources.Get $img.image }} {{ if $original }} {{ $webp :=
+$original.Resize "1200x webp q60" }}
+<!-- Convert to WebP & Reduce Quality -->
+<a href="{{$webp.RelPermalink}}" class="glightbox">
+  <img src="{{$webp.RelPermalink}}" alt="{{$img.caption}}" />
+</a>
+{{ end }} {{end}}

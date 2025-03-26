@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "C:/fiverr projects/clients/Madame_Dutykh/Madame_Dutykh - Copy",
+	"sourceRoot": "C:/fiverr projects/clients/Madame_Dutykh/Madame_Dutykh - Copy/Madame_Dutykh - Copy",
 	"sources": [
 		"themes/LoveIt/assets/css/style.scss",
 		"themes/LoveIt/assets/lib/normalize/normalize.css",
