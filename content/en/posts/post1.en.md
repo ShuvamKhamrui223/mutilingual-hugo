@@ -10,16 +10,20 @@ slides:
 galleryImages:
   - image: "/images/post-1/Bilbao_collage_1.jpg"
     caption: "Slide 1 Caption"
-  - image: "/images/post-1/Bilbao_collage_1.jpg"
+  - image: "/images/post-1/vertical.jpg"
     caption: "Slide 1 Caption"
   - image: "/images/post-1/Bilbao_collage_1.jpg"
     caption: "Slide 1 Caption"
   - image: "/images/post-1/Bilbao_collage_1.jpg"
     caption: "Slide 1 Caption"
-  - image: "/images/post-1/Bilbao_collage_1.jpg"
+  - image: "/images/post-1/vertical.jpg"
     caption: "Slide 1 Caption"
   - image: "/images/post-1/Bilbao_collage_1.jpg"
     caption: "Slide 1 Caption"
+author: "Kateryna"
+tags: ["test"]
+categories: ["testing"]
+
 ---
 This is the English version of the website post 1.
 
