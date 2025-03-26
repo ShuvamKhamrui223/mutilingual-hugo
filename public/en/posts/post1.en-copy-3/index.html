@@ -156,7 +156,6 @@ slider PreviousNext">
     
     const carousel = new bootstrap.Carousel(carouselEl, {
       interval: 50,
-      wrap: false,
     });
 
     
@@ -165,7 +164,6 @@ slider PreviousNext">
       window.lightGallery(container, {
         plugins: [lgThumbnail],
         selector: ".lg-item",
-        exThumbImage: "data-external-thumb-image",
         escKey: true,
       });
     });
@@ -176,8 +174,8 @@ slider PreviousNext">
 
 
 
-<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel" style="width: fit-content;">
+  <div class="carousel-inner" style="width: fit-content;">
     
     <div class="carousel-item active">
         

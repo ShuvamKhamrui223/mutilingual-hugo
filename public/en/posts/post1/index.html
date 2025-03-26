@@ -135,35 +135,41 @@ slider PreviousNext">
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/lightgallery/css/lightgallery-bundle.min.css"
 />
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const lightbox = GLightbox({ selector: ".lightgallery" });
+  });
+</script>
 <div id="lightgallery">
       
   
-  <a href="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp" class="glightbox">
+  <a href="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp" class="lightgallery glightbox">
     <img src="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp" alt="Slide 1 Caption" />
   </a>
       
   
-  <a href="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp" class="glightbox">
+  <a href="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp" class="lightgallery glightbox">
     <img src="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp" alt="Slide 1 Caption" />
   </a>
       
   
-  <a href="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp" class="glightbox">
+  <a href="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp" class="lightgallery glightbox">
     <img src="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp" alt="Slide 1 Caption" />
   </a>
       
   
-  <a href="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp" class="glightbox">
+  <a href="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp" class="lightgallery glightbox">
     <img src="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp" alt="Slide 1 Caption" />
   </a>
       
   
-  <a href="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp" class="glightbox">
+  <a href="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp" class="lightgallery glightbox">
     <img src="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp" alt="Slide 1 Caption" />
   </a>
       
   
-  <a href="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp" class="glightbox">
+  <a href="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp" class="lightgallery glightbox">
     <img src="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp" alt="Slide 1 Caption" />
   </a>
    
@@ -194,7 +200,7 @@ slider PreviousNext">
       scale: 105%;
     }
   }
-  .glightbox {
+  .lightgallery {
     &:first-child {
       grid-column: span 3;
     }
@@ -316,7 +322,6 @@ slider PreviousNext">
     
     const carousel = new bootstrap.Carousel(carouselEl, {
       interval: 50,
-      wrap: false,
     });
 
     
@@ -325,7 +330,6 @@ slider PreviousNext">
       window.lightGallery(container, {
         plugins: [lgThumbnail],
         selector: ".lg-item",
-        exThumbImage: "data-external-thumb-image",
         escKey: true,
       });
     });
@@ -336,19 +340,19 @@ slider PreviousNext">
 
 
 
-<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel" style="width: fit-content;">
+  <div class="carousel-inner" style="width: fit-content;">
     
     <div class="carousel-item active">
         
       
       <a
-        data-src="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp"
-        href="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp"
+        data-src="/images/post-1/vertical_hu_a44f0217a7467265.webp"
+        href="/images/post-1/vertical_hu_a44f0217a7467265.webp"
         class="lg-item glightbox"
       >
         <img
-          src="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp"
+          src="/images/post-1/vertical_hu_a44f0217a7467265.webp"
           alt="Slide 1 Caption"
           class="img-responsive"
         />
@@ -360,12 +364,12 @@ slider PreviousNext">
         
       
       <a
-        data-src="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp"
-        href="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp"
+        data-src="/images/post-1/vertical-2_hu_2d2433fe91c4477f.webp"
+        href="/images/post-1/vertical-2_hu_2d2433fe91c4477f.webp"
         class="lg-item glightbox"
       >
         <img
-          src="/images/post-1/Bilbao_collage_1_hu_54d2d5c8e7d00f35.webp"
+          src="/images/post-1/vertical-2_hu_2d2433fe91c4477f.webp"
           alt="Slide 1 Caption"
           class="img-responsive"
         />

@@ -22,7 +22,6 @@
     // Create a new Bootstrap 5 Carousel instance with specified options
     const carousel = new bootstrap.Carousel(carouselEl, {
       interval: 50,
-      wrap: false,
     });
 
     // Add an event listener for the 'slide.bs.carousel' event, fires immediately when the slide instance method is invoked.
@@ -31,7 +30,6 @@
       window.lightGallery(container, {
         plugins: [lgThumbnail],
         selector: ".lg-item",
-        exThumbImage: "data-external-thumb-image",
         escKey: true,
       });
     });
@@ -42,8 +40,8 @@
 <!-- Fetch images from front matter -->
 
 {{ if $images }}
-<div id="{{ $id }}" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
+<div id="{{ $id }}" class="carousel slide" data-bs-ride="carousel" style="width: fit-content;">
+  <div class="carousel-inner" style="width: fit-content;">
     {{ range $index, $img := $images }}
     <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
       {{ $original := resources.Get $img.image }} {{ if $original }} {{ $webp :=

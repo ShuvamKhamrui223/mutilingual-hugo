@@ -2,12 +2,18 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/lightgallery/css/lightgallery-bundle.min.css"
 />
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const lightbox = GLightbox({ selector: ".lightgallery" });
+  });
+</script>
 <div id="lightgallery">
   {{ $images := .Page.Params.galleryImages }} {{ range $index, $img := $images
   }} {{ $original := resources.Get $img.image }} {{ if $original }} {{ $webp :=
   $original.Resize "1200x webp q60" }}
   <!-- Convert to WebP & Reduce Quality -->
-  <a href="{{$webp.RelPermalink}}" class="glightbox">
+  <a href="{{$webp.RelPermalink}}" class="lightgallery glightbox">
     <img src="{{$webp.RelPermalink}}" alt="{{$img.caption}}" />
   </a>
   {{ end }} {{end}}
@@ -38,7 +44,7 @@
       scale: 105%;
     }
   }
-  .glightbox {
+  .lightgallery {
     &:first-child {
       grid-column: span 3;
     }
